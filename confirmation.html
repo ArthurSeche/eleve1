@@ -5,30 +5,7 @@
 dataLayer = [{
 'pageCategory': 'ecommerce' 
 }];
-</script>
-<script>
-    gtag("event", "purchase", {
-        transaction_id: "T_12345_1",
-        value: 90.00,
-        tax: 4.90,
-        shipping: 5.99,
-        currency: "USD",
-        coupon: "SUMMER_SALE",
-        items: [
-        // If someone purchases more than one item,
-        // you can add those items to the items array
-         {
-          item_id: "SKU_12345",
-          item_brand: "SRFC",
-          item_category: "Maillot",
-          item_category2: "Adulte",
-          item_category3: "Rouge",
-         
-          price: 90.00,
-          quantity: 1
-        }]
-    });
-    </script>	
+</script>	
 	
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -66,6 +43,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="footer">
   </div>
   </div> 
+	
+<script>
+    gtag("event", "purchase", {
+        transaction_id: "T_12345_1",
+        value: 90.00,
+        tax: 4.90,
+        shipping: 5.99,
+        currency: "USD",
+        coupon: "SUMMER_SALE",
+        items: [
+        // If someone purchases more than one item,
+        // you can add those items to the items array
+         {
+          item_id: "SKU_12345",
+          item_brand: "SRFC",
+          item_category: "Maillot",
+          item_category2: "Adulte",
+          item_category3: "Rouge",
+         
+          price: 90.00,
+          quantity: 1
+        }]
+    });
+    </script>	
 	
 </body>
 	    
